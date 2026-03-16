@@ -1,24 +1,10 @@
 {
-  "name": "IG Image Generator",
-  "short_name": "IG Gen",
+  "name": "NeonFrame — IG Image Generator",
+  "short_name": "NeonFrame",
   "description": "Generate AI images for Instagram — cyberpunk, anime, 3D and more.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#080c14",
   "theme_color": "#00f0ff",
-  "orientation": "portrait-primary",
-  "icons": [
-    {
-      "src": "/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ]
+  "orientation": "portrait-primary"
 }

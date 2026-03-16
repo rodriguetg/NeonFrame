@@ -338,6 +338,7 @@ export default function HomePage() {
         <meta name="description" content="Generate stunning AI images for Instagram. Cyberpunk, anime, 3D, dark, fantasy and more." />
         <meta name="theme-color" content="#080c14" />
         <link rel="manifest" href="/manifest.json" />
+        <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="apple-mobile-web-app-title" content="IG Gen" />
