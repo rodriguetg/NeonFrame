@@ -145,7 +145,7 @@ Proxy serveur vers Pollinations. Gère les retries (3 tentatives, backoff expone
 |---|---|---|
 | `POLLINATIONS_API_KEY` | Clé API Pollinations | `.env` en local, Vercel dashboard en prod |
 
-**Clé actuelle :** `pk_sY52OWOvVCIEJgMo` (compte Rodrigue)
+**Clé actuelle :** `` (compte Rodrigue)
 
 ---
 
@@ -156,7 +156,7 @@ Proxy serveur vers Pollinations. Gère les retries (3 tentatives, backoff expone
 npm install
 
 # 2. Vérifier que .env contient la clé
-# POLLINATIONS_API_KEY=pk_sY52OWOvVCIEJgMo
+# POLLINATIONS_API_KEY=
 
 # 3. Démarrer le serveur de développement
 npm run dev
