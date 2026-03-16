@@ -400,9 +400,9 @@ export default function HomePage() {
                 </div>
                 <textarea
                   value={prompt}
-                  onChange={(e) => charCount < MAX_CHARS || e.target.value.length < charCount
-                    ? setPrompt(e.target.value)
-                    : null}
+                  onChange={(e) => {
+                    if (e.target.value.length <= MAX_CHARS) setPrompt(e.target.value);
+                  }}
                   onKeyDown={handleKeyDown}
                   placeholder={t.promptPlaceholder}
                   rows={4}
